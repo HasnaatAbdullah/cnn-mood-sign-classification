@@ -1,26 +1,29 @@
 # 🧠 Convolutional Neural Networks: Application
 
-This repository contains my implementation of the **second assignment** from **Course 4: Convolutional Neural Networks** in the Deep Learning Specialization.  
-In this project, I built and trained **two CNN models** using **TensorFlow** and **Keras**:
+This repository contains an implementation of two **Convolutional Neural Network (CNN)** models using **TensorFlow** and **Keras**:
 
-1. **Mood Classifier** → Uses the **Sequential API** for **binary classification**.
-2. **Sign Language Digit Classifier** → Uses the **Functional API** for **multiclass classification**.
+1. **Mood Classifier** → Built using the **Sequential API** for **binary image classification**.
+2. **Sign Language Digit Classifier** → Built using the **Functional API** for **multiclass image classification**.
 
 ---
 
 ## 🚀 Project Overview
 
 ### **1. Mood Classifier**
-- Built a simple CNN using the **TF Keras Sequential API**.
+- Implemented a CNN using the **Keras Sequential API**.
 - Trained on an image dataset to classify moods into **positive** or **negative**.
-- Applied convolution, pooling, and dense layers to achieve accurate classification.
+- Applied convolutional layers, pooling, dropout, and dense layers to achieve accurate predictions.
 
 ### **2. Sign Language Digit Classifier**
-- Built a **deep ConvNet** using the **TF Keras Functional API**.
-- Classified images of **sign language digits (0-9)** into **10 classes**.
-- Used multiple convolutional layers, max-pooling, and fully connected layers.
+- Designed a deeper CNN using the **Keras Functional API**.
+- Classified **sign language digits (0-9)** into **10 classes**.
+- Incorporated convolution, max-pooling, and fully connected layers for robust performance.
 
 ---
+
+## 📂 Project Structure
+
+
 
 ## 📂 Project Structure
 
